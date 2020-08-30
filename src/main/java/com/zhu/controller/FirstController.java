@@ -31,5 +31,8 @@ public class FirstController {
 		response.sendRedirect("success");
 	}
 
-
+	@RequestMapping("/success")
+	public String toSuccess(){
+		return "success";
+	}
 }
